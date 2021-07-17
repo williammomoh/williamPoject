@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description">
+    <meta name="author">
+    <title>
+        E-portal
+        </title>
+        <link rel="shortcut icon" type="imgae/x icon" href="images/6.jpg">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+     <style type="text/css">
+        .form-control {}
+        .mb-3 {
+            height: 103px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="#" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="8Hb6NNY3h4JSdDcg/c6ECg+4D2L2YkKGqjxd4j3Zj7+k4bgkOOcfeM0DvAPwodmGzL6mGz4oEtr0RtOwhkYKLt+Z3pOup/otNUZnug75wos=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./E-portal/WebResource.axd" type="text/javascript"></script>
+<script src="./E-portal/jquery-3.3.1.min.js.download" type="text/javascript"></script>
+<script src="./E-portal/WebResource(1).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="iYCIip336Qodx+QKh0IgFz3zoEudR1wZHdGgVO05q4XsN3Eg0zfa3V9FzEOpJQp5JNLbFOPzJujKt1+A1Ky/sVBzhT0G5buRpZTBzZ/++LQQk/k3ufWC0l3Z5vgCsSfwb+uB7sTn5E4bSJeOBaWxBRQU9RV2yyEoDOtk2KdVjwg=">
+</div>
+       <div style="padding: inherit; text-align:center; vertical-align: middle; background-color:white">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+             <img class="mb-3" src="./E-portal/Banner.jpg" alt="">
+            
+            <br>
+            <br>
+            <br>
+            <span data-val-controltovalidate="txtUsername" data-val-errormessage="User ID is required" id="RequiredFieldValidator1" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:Red;visibility:hidden;">User ID is required</span>
+        
+        <br>
+        <br>
+            <label for="txtUsername">
+             Username<br>
+             </label>
+
+             <input name="txtUsername" type="text" id="txtUsername" class="form-control" placeholder="Enter Username" style="width:281px;">
+        
+             <br>
+            <br>
+            <label for="txtPassword">
+            Password<br>
+             </label>
+           <input name="txtPassword" type="password" id="txtPassword" class="form-control" placeholder="Enter Password" style="width:290px;">
+             <br>
+             <br>
+        <span data-val-controltovalidate="txtPassword" data-val-errormessage="Password must be 5-12 nonblank characters" id="RegularExpressionValidator1" data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid" data-val-validationexpression="^[a-zA-Z0-9&#39;@&amp;#.!\s]{5,12}$" style="color:Red;visibility:hidden;">Password must be 5-12 nonblank characters</span>
+        <br>
+        <br>
+            <input type="submit" name="btnLogin" value="Login" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnLogin&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnLogin" class="btn btn-primary">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="mt-5 mb-3 text-muted">© 2016 Starz College of Science And Technology</p>
+     </div>    
+    </form>
+</body>
+</html>
